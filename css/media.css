@@ -10,6 +10,9 @@
 .bannnerStart {
     background-size: 109% 128%;
 }
+	.grapLeft::before {
+    left: -180px;
+}
 }
 @media(max-width:1367px){
 .bannnerStart {
@@ -31,6 +34,11 @@
 }
 	.aboutContentnt p {
     padding: 20px 0px;
+}
+	.grapLeft::before {
+
+    left: -175px;
+
 }
 }
 @media(max-width:1199px){
@@ -97,6 +105,27 @@
 }
 	.instaContent h2 {
     font-size: 20px;
+}
+	.slick-dots {
+  
+    top: 5%;
+}
+	.grapLeft::before {
+    left: -135px;
+}
+	.footleft {
+    padding-right: 30px;
+}
+	.footmiddle {
+    padding: 0 22px;
+}
+	.footpart ul li {
+    font-size: 18px;
+    line-height: 34px;
+}
+	.footpart h3 {
+    font-size: 20px;
+    padding-bottom: 6px;
 }
 }
 @media(max-width:991px){
@@ -299,6 +328,23 @@ min-height: 312px;
     padding: 70px 0px 0px;
     text-align: center;
 }
+	.footerall.boxs {
+     display: block; 
+}
+	.btmleft p {
+    font-size: 14px;
+}
+	.btmright h5 {
+    font-size: 15px;
+}
+	.btmright a {
+    font-size: 17px;
+}
+	.priceLeft h2 {
+
+    font-size: 35px;
+    line-height: 45px;
+}
 }
 @media(max-width:767px){ 
 .watchBtn {
@@ -370,6 +416,46 @@ min-height: 312px;
 }
 	.container {
     max-width: 100%;
+}
+	.grapLeft::before {
+   content: '';
+}
+	.graphicScreen:nth-child(even) .container .grapLeft::before {
+
+    content: '';
+}
+.slick-dots {
+    top: unset;
+    right: unset;
+    bottom: -25px;
+    transform: rotate(0deg);
+    text-align: center;
+    min-width: auto;
+    width: 100%;
+}
+	.footmiddle {
+    width: 50%;
+    float: right;
+}
+	.footleft {
+    width: 50%;
+}
+	.footer .footmiddle:nth-child(2){
+		margin-bottom: 30px;
+	}
+.footmiddle:last-child {
+    padding-left: 0;
+    padding-top: 20px;
+}
+	.btmleft {
+    width: 100%;
+    margin-bottom: 10px;
+}
+	.bottomFooter {
+    display: block;
+}
+	.secure {
+    display: inline-block;
 }
 }
 @media(max-width:560px){
@@ -444,6 +530,46 @@ display: none;
 }
 	.ShowApp ul li:nth-child(8n +8) {
     margin-right: 10px;
+}
+	.bannnerStart {
+    min-height: 535px;
+}
+	.graphicScreen .container {
+    display: block;
+
+}
+	.slick-dots li button {
+    width: 15px;
+    height: 15px;
+}
+	.slick-dots li{
+		margin-right: 15px;
+	}
+	.slick-dots li.slick-active button {
+    border: solid 2px var(--colorWhite);
+
+}
+	.footmiddle {
+    padding: 0 5px;
+}
+	.footmiddle{
+		float: left;
+	}
+	.footpart ul li {
+    font-size: 16px;
+    line-height: 30px;
+}
+	.footmiddle:last-child {
+    padding-top: 0px;
+}
+	.btmright a {
+    margin: 0 6px;
+
+}
+	.priceLeft h2 {
+    font-size: 25px;
+    line-height: 45px;
+    padding-bottom: 20px;
 }
 }
 
@@ -520,6 +646,48 @@ display: none;
 }
 	.medxApplication {
     padding: 50px 0px 0px;
+
+}
+	.footleft {
+    width: 100%;
+		padding-right: 0;
+		padding-left: 0;
+		margin-bottom: 15px;
+}
+	.footer .footmiddle{
+		width: 100%;
+				padding-right: 0;
+		padding-left: 0;
+	}
+	.footpart h3{
+		font-size: 18px;
+	}
+	.footer .footmiddle:nth-child(2),.footer .footmiddle {
+    margin-bottom: 15px;
+}
+	.footer {
+    background-color: #f3f9ec;
+    padding: 30px 0 15px;
+}
+	.btmright{
+		float: left !important;
+		widows: 1005;
+		margin-top: 10px;
+	}
+	.footerbtm {
+    background-color: #000;
+    padding: 5px 0;
+}
+	.slick-dots{
+		bottom: -40px;
+	}
+	.customerForm {
+ 
+    padding: 50px 20px;
+}
+	.graphicSlider1 ul li a {
+    width: 15px;
+    height: 15px;
 
 }
 }
